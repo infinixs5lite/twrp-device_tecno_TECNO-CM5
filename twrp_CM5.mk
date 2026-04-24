@@ -4,8 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from CM5 device
-$(call inherit-product, device/tecno/CM5/device.mk)
+# Inherit from device/transsion/mt6789-common device
+$(call inherit-product, device/transsion/mt6789-common/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
